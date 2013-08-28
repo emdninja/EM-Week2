@@ -1,0 +1,150 @@
+@import 'normalize.css';
+@import 'font-awesome.min.css';
+
+/*Adding box sizing to everythign I mean everything*/
+*, *:before, *:after{
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+/*Clear fix for floating clearing issues common in ALL THE CSS EVERYWHERE*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+
+/*Wrapper for everything keepin it tidy since 2013*/
+.wrapper{
+	width:90%;
+	max-width: 960px;
+	background-color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+/*Our banner container which will eventually be our "gallery" */
+.banner{
+	width: 100%;
+	background-color: #fff;
+	padding:10px;
+	margin-bottom: 20px;
+}
+
+/*The image in the gallery*/
+.banner img{
+	width: 100%;
+}
+
+/*Set the posts container size and colour*/
+.posts{
+	width: 100%;
+	background-color: #8312ed;
+}
+
+/*Set the each blog post to be half the width of our container*/
+.post{
+	width: 48%;
+	background-color: #fff;
+	padding: 5px 15px;
+	float: left;
+	margin-right: 2%;
+	margin-top: 5px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+}
+/*Fix the even post to move over correctly*/
+.post:nth-child(even){
+/*	margin-right: -2%;
+	margin-left: 2%;*/
+	background-color: pink;
+}
+
+/*Give the image some width direction to make sure it stays in the box*/
+.post img{
+	width: 100%;
+}
+
+.post h1{
+	word-wrap:break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
